@@ -1,0 +1,132 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProjectLapDay2
+build_property.RootNamespace = ProjectLapDay2
+build_property.ProjectDir = D:\ITI monifa 2022-08\MVC\new task\ProjectLapDay2\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\ITI monifa 2022-08\MVC\new task\ProjectLapDay2
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/Dependent/Addform.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwZW5kZW50XEFkZGZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/Dependent/Editform.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwZW5kZW50XEVkaXRmb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/Dependent/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwZW5kZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/Employee/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/Employee/AddForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQWRkRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/Employee/AssignProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQXNzaWduUHJvamVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/Employee/DeleteForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGVsZXRlRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/Employee/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/Employee/EditForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdEZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/Employee/getAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcZ2V0QWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/Employee/getAllWorksOn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcZ2V0QWxsV29ya3NPbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/login/loginForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbG9naW5cbG9naW5Gb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/Partialview/Editprojecthoure.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHZpZXdcRWRpdHByb2plY3Rob3VyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/Partialview/GetAllempproj.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHZpZXdcR2V0QWxsZW1wcHJvai5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/Partialview/_projectlist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHZpZXdcX3Byb2plY3RsaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/project/Addform.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHJvamVjdFxBZGRmb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/project/Editform.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHJvamVjdFxFZGl0Zm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/project/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHJvamVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/Shared/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGxvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/Shared/_MyLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NeUxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI monifa 2022-08/MVC/new task/ProjectLapDay2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-y9te2eoxp4

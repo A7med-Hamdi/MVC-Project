@@ -1,0 +1,53 @@
+﻿@model ProjectLapDay2.ViewModel.EditprojecthoursVm
+@{
+    ViewData["Title"] = "EditStdsGrades";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+
+
+@TempData["Error"]
+
+
+<h1 class="text-xl-center text-primary">Editprojecthoure</h1>
+
+<div class="row">
+  
+    <div class="m-auto col-6">
+        <form asp-action="Editprojecthoure" method="post">
+              <div class="form-group">
+             <label asp-for="empId"></label>
+                 
+             <select asp-for="empId" asp-items="@Model.employee"></select>
+
+            </div>
+            <div class="form-group" id="prolist">
+                <label asp-for="proId"></label>
+                      <select asp-for="proId" asp-items="@Model.project"></select>
+
+            </div>
+            <div class="form-group">
+                <label class="control-label">Project hours</label>
+                <input id="hours"   name="houre" class="form-control" type="number" />
+            </div>
+            <div class="form-group">
+                
+             <button type="submit" class="btn btn-success my-2">
+           
+               Add
+            </button>
+
+            <a asp-action="GetAllempproj" class="btn btn-danger">
+               
+                Cancel
+            </a>
+               
+            </div>
+
+        </form>
+    </div>
+    
+</div>  
+@section Scripts{
+    <script src="/js/editprojecthoure.js"></script>
+}

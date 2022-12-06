@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="~/lib/bootstrap-icons/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="~/icofont/icofont.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + LeadMark main styles -->
+    <link rel="stylesheet" href="~/assets/css/leadmark.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <nav class="navbar navbar-expand-lg bg-primary fa-align-right text-center ">
+        <div class="container ">
+
+            <a class="navbar-brand text-white" href="/login/loginForm">Login</a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item text-white">
+                        <a class="nav-link text-white" href="/Employee/getAll">Employees</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/Employee/getAllWorksOn">project of Employee</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/project/Index">Htmltag-project </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/Dependent/Index">taghelper-Dependent </a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link text-white" href="/Partialview/GetAllempproj">Edit project houre </a>
+                    </li>
+
+                </ul>
+                <h3 class="nav-link text-white   "> hello @Context.Session.GetString("name")</h3>
+
+            </div>
+        </div>
+    </nav>
+    <!-- End Of Second Navigation -->
+
+    <div>
+        @RenderBody()
+
+    </div>
+
+    <footer class="mt-5 text-center py-4 border-top border-secondary">
+        <p class="mb-0 small">&copy; <script>document.write(new Date().getFullYear())</script>, All rights reserved </p>
+    </footer>
+
+    <script src="~/assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="~/assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="~/assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope -->
+    <script src="~/assets/vendors/isotope/isotope.pkgd.js"></script>
+
+    <!-- LeadMark js -->
+    <script src="~/assets/js/leadmark.js"></script>
+    @RenderSection("Scripts",false)
+</body>
+</html>
+
+

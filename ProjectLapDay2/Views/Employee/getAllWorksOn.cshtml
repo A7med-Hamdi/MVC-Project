@@ -1,0 +1,68 @@
+﻿@model List<WorkOn>
+@{
+    ViewData["Title"] = "getAllWorksOn";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+@TempData["SaveAssign"]
+@*<h1>getAllWorksOn</h1>
+*@
+@*@foreach (var item in Model)
+{
+    <h1>@item.Eid</h1>
+        <h1>@item.Emp.name</h1> 
+        <h1>@item.Proj.name</h1>   
+        <h1>@item.hours</h1>    
+        
+}*@
+
+
+<h1 class="text-xl-center text-primary">project of Employee</h1>
+
+<div class="container">
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr class="table-primary">
+            <th class="text-center">
+                Employee ID
+            </th>
+            <th class="text-center">
+                Employee Name
+            </th>
+            <th class="text-center">
+                Project Name
+            </th>
+            <th class="text-center">
+                Hours
+            </th>
+        
+         
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="text-center align-middle">
+                    @Html.DisplayFor(modelItem => item.Emp.id)
+                </td>
+                <td class="text-center align-middle ">
+                    @Html.DisplayFor(modelItem => item.Emp.name)
+                </td>
+                
+                <td class="text-center align-middle ">
+                    @Html.DisplayFor(modelItem => item.Proj.name)
+                </td>
+                <td class="text-center align-middle ">
+                    @Html.DisplayFor(modelItem => item.hours)
+                </td>
+            
+              
+            </tr>
+        }
+    </tbody>
+</table>
+         <a asp-action="AssignProject" class="btn btn-primary  ">
+   Add  Employee to Project
+</a>
+</div>

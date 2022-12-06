@@ -1,0 +1,53 @@
+﻿@model List<ProjectLapDay2.Models.Department>
+@{
+    ViewData["Title"] = "AddForm";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+
+    <h1 class="text-xl-center text-primary">Add Employee</h1>
+
+
+<div class="row">
+   
+    <div class="m-auto col-6">
+        <form asp-action="Add" method="post" >
+            <div class="form-group">
+                <label  class="control-label text-muted">Name</label>
+                <input name="name" class="form-control" placeholder="Please add name here" />
+            </div>
+
+            <div class="form-group">
+                <label  class="control-label text-muted">Age</label>
+                <input  name="age" type="number" class="form-control" placeholder="Please add age here" />
+            </div>
+
+            <div class="form-group">
+                <label  class="control-label text-muted">Address</label>
+                <input  name="address" class="form-control" placeholder="Please add address here" />
+            </div>
+
+             <div class="form-group">
+                <label  class="control-label text-muted">Salary</label>
+                <input  name="salary" typea="number" class="form-control" placeholder="Please add salary here" />
+            </div>
+            <div class="form-group">
+                <label class="control-label text-muted">Department </label>
+                <select  name="dept_id" class="form-control">
+                    @foreach(var dept in Model){
+                        <option value="@dept.id">@dept.name</option>
+                    }
+                </select>
+            </div>
+            
+            <button type="submit" class="btn btn-success my-2">
+           
+               Add
+            </button>
+
+            <a asp-action="getAll" class="btn btn-danger">
+               
+                Cancel
+            </a>
+        </form>
+    </div>

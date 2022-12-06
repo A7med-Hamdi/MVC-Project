@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/login.cshtml";
+}
+
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+        <!-- Tabs Titles -->
+        <h2 class="active"> Sign In </h2>
+        <h2 class="inactive underlineHover">Sign Up </h2>
+
+        <!-- Icon -->
+        <div class="fadeIn first">
+        </div>
+
+        <!-- Login Form -->
+        <form asp-action="loginForm" method="post">
+            <input type="text" id="name" class="fadeIn second" name="name" placeholder="name">
+            <input type="submit" class="fadeIn fourth" value="Log In">
+        </form>
+
+        <!-- Remind Passowrd -->
+        <div id="formFooter">
+            <a class="underlineHover" href="#">Forgot Password?</a>
+        </div>
+
+    </div>
+</div>
+

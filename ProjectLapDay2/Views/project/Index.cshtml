@@ -1,0 +1,65 @@
+﻿@model List<Project>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+<h1 class="text-xl-center text-primary">Project</h1>
+
+<div class="container">
+    <table class="table table-bordered table-hover ">
+        <thead>
+            <tr class="table-primary">
+                <th class="text-center">
+                    Name
+                </th>
+                <th class="text-center">
+                    Location
+                </th>
+
+                <th class="text-center">
+                    Department
+                </th>
+                <th class="text-center align-middle">
+
+                </th>
+                <th class="text-center align-middle">
+
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="text-center align-middle ">
+                        <a asp-route-id="@item.id" name="@item.id">@item.name</a>
+
+                    </td>
+                    <td class="text-center align-middle ">
+                        @Html.DisplayFor(modelItem => item.location)
+                    </td>
+
+
+                    <td class="text-center align-middle ">
+                        @Html.DisplayFor(modelItem => item.department.name)
+                    </td>
+                    <td class="text-center align-middle">
+                        <a asp-action="Editform" asp-route-id="@item.id" class="btn btn-info my-2 form-control "> Update </a>
+
+
+                    </td>
+                    <td>  <a asp-action="Delete" asp-route-id="@item.id" class="btn btn-danger my-2 form-control disabled" > Delete </a></td>
+                </tr>
+            }
+
+
+        </tbody>
+
+    </table>
+
+    <a asp-action="Addform" class="btn btn-primary  ">
+        Add New Project
+    </a>
+</div>
+

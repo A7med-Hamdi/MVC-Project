@@ -1,0 +1,55 @@
+﻿@model List<WorkOn>
+@{
+    ViewData["Title"] = "getAllWorksOn";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+@TempData["SaveAssign"]
+
+
+
+<h1 class="text-xl-center text-primary">project of Employee</h1>
+
+<div class="container">
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr class="table-primary">
+            
+            <th class="text-center">
+                Employee Name
+            </th>
+            <th class="text-center">
+                Project Name
+            </th>
+            <th class="text-center">
+                Hours
+            </th>
+        
+         
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                
+                <td class="text-center align-middle ">
+                    @Html.DisplayFor(modelItem => item.Emp.name)
+                </td>
+                
+                <td class="text-center align-middle ">
+                    @Html.DisplayFor(modelItem => item.Proj.name)
+                </td>
+                <td class="text-center align-middle ">
+                    @Html.DisplayFor(modelItem => item.hours)
+                </td>
+            
+              
+            </tr>
+        }
+    </tbody>
+</table>
+         <a asp-action="Editprojecthoure" class="btn btn-primary  ">
+   Edit houres of Project
+</a>
+</div>

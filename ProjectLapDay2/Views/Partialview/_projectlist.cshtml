@@ -1,0 +1,8 @@
+﻿@model ProjectLapDay2.ViewModel.EditprojecthoursVm
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<div class="form-group">
+    <label asp-for="proId"></label>
+    <select asp-for="proId" asp-items="@Model.project"></select>
+</div>

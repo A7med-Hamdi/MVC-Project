@@ -1,0 +1,65 @@
+﻿@model List<Dependant>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+<h1 class="text-xl-center text-primary">Dependent</h1>
+
+<div class="container">
+    <table class="table table-bordered table-hover ">
+        <thead>
+            <tr class="table-primary">
+                <th class="text-center">
+                    Name
+                </th>
+                <th class="text-center">
+                    Age
+                </th>
+
+                <th class="text-center">
+                    Employee
+                </th>
+                <th class="text-center align-middle">
+
+                </th>
+                <th class="text-center align-middle">
+
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="text-center align-middle ">
+                        <a asp-route-id="@item.id" name="@item.id">@item.name</a>
+
+                    </td>
+                    <td class="text-center align-middle ">
+                        @Html.DisplayFor(modelItem => item.age)
+                    </td>
+
+
+                    <td class="text-center align-middle ">
+                        @Html.DisplayFor(modelItem => item.Emp.name)
+                    </td>
+                    <td class="text-center align-middle">
+                        <a asp-action="Editform" asp-route-id="@item.id" class="btn btn-info my-2 form-control "> Update </a>
+
+
+                    </td>
+                    <td>  <a asp-action="Delete" asp-route-id="@item.id" class="btn btn-danger my-2 form-control " > Delete </a></td>
+                </tr>
+            }
+
+
+        </tbody>
+
+    </table>
+
+    <a asp-action="Addform" class="btn btn-primary  ">
+        Add New Dependent
+    </a>
+</div>
+

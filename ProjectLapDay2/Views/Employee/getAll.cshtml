@@ -1,0 +1,77 @@
+﻿
+@model List<ProjectLapDay2.Models.Employee>
+@{
+    ViewData["Title"] = "getAll";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+
+
+<h1 class="text-xl-center text-primary">Employee</h1>
+
+<div class="container">
+<table class="table table-bordered table-hover ">
+    <thead>
+        <tr class="table-primary" >
+            <th class="text-center">
+                Name
+            </th>
+            <th class="text-center">
+               Age
+            </th>
+            <th class="text-center">
+                Salary
+            </th>
+            <th class="text-center">
+                Adress
+            </th>
+            <th class="text-center">
+             Department
+            </th>
+            <th class="text-center align-middle">
+                
+            </th>
+             <th class="text-center align-middle">
+                
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="text-center align-middle ">
+                 <a asp-action="Details" asp-route-id="@item.id" name="@item.id">@item.name</a>
+
+                </td>
+                <td class="text-center align-middle ">
+                    @Html.DisplayFor(modelItem => item.age)
+                </td>
+                
+                <td class="text-center align-middle ">
+                    @Html.DisplayFor(modelItem => item.salary)
+                </td>
+                <td class="text-center align-middle ">
+                    @Html.DisplayFor(modelItem => item.address)
+                </td>
+                <td class="text-center align-middle ">
+                    @Html.DisplayFor(modelItem => item.dept.name)
+                </td>
+                <td class="text-center align-middle">
+                    <a asp-action="EditForm" asp-route-id="@item.id" class="btn btn-info my-2 form-control "> Update </a>
+                 
+                  
+                </td>
+                <td>  <a asp-action="Delete" asp-route-id="@item.id" class="btn btn-danger my-2 form-control "> Delete </a></td>
+            </tr>
+        }
+
+  
+    </tbody>
+
+</table>
+
+          <a asp-action="AddForm" class="btn btn-primary  ">
+   Add New Employee
+</a>
+</div>

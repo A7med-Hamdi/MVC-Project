@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/login.cshtml";
+}
+
+<div class="container row " >
+    <div id="formContent" class="m-auto  mt-3 p-2 bg-gradient col-4" style="background-color:#ccc">
+      
+        <h2 class="text-xl-center text-primary"> Sign In </h2>
+
+        <!-- Login Form -->
+        <form asp-action="submitLogin" method="post">
+
+               <div class="form-group">
+                <label  class="control-label text-primary">User Name</label>
+                <input   type="text" id="UserName" name="UserName" class="form-control" placeholder="Please add user name" />
+            </div>
+                <div class="form-group">
+                <label  class="control-label text-primary">PassWord</label>
+                <input  type="password" id="Password"  name="Password" class="form-control" placeholder="Please add password" />
+            </div>
+            
+
+             <button type="submit" class="btn btn-success m-auto" value="Log In">
+                
+                log in
+            </button>
+        </form>
+
+     
+
+    </div>
+</div>
